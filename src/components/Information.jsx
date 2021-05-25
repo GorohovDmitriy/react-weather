@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Information extends Component {
-	render() {
-		return (
-			<div>
-				<h1>pogoda</h1>
-			</div>
-		)
-	}
+const Information = () => {
+	return (
+		<div>
+			<h2>Aplication Weather</h2>
+			<p>Погода в вашем городе</p>
+		</div>
+	)
 }
+
+export default Information;
